@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?include "..\Config.wxi" ?>
+
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Fragment>
+        <Directory Id="TARGETDIR" Name="SourceDir">
+            <Directory Id="ProgramFilesFolder" Name="PFiles">
+                <Directory Id="PRODUCTDIR" Name="$(var.ProductName) SDKs">
+                    <Directory Id="INSTALLDIR" Name="v$(var.SDKVersion)">
+                        <Component Id="WindowsInstallerBugWorkaround" Guid="{B7F858CC-DB42-4D16-B692-F31E5A4C6D77}">
+                            <CreateFolder/>
+                        </Component>
+                        
+                        <Component Id="B166ACB8_EC2A_450A_99A0_5177F52A55E3" Guid="{B166ACB8-EC2A-450a-99A0-5177F52A55E3}">
+                            <File Id="BFCC2247_CC06_485C_B92E_4B669D812484" Source="..\..\..\..\Output\Binaries\License.rtf" />
+                            <File Id="E2D267FF_67CA_4A0D_85C2_AB1667FD46DB" Source="..\..\..\..\Output\Binaries\ReadMe.txt" />
+                        </Component>
+
+                        <!-- Binaries Folder -->
+                        <Directory Id="BINFOLDER" Name="!(loc.BinFolder)">
+
+                            <Directory Id="WIN2KBINFOLDER" Name="!(loc.Win2kBinFolder)">
+                                <Component Id="BB87A0A1_6B7F_4390_89A7_6C00C17272E1" Guid="{BB87A0A1-6B7F-4390-89A7-6C00C17272E1}">
+                                    <File Id="D5E20052_267B_4F3C_AB29_47560F4436EB" Source="..\..\..\..\Output\Binaries\WIN2K\DotRas.dll" />
+                                    <File Id="BD12C86F_763A_42A1_9F49_1D342A8E0A78" Source="..\..\..\..\Output\Binaries\WIN2K\DotRas.xml" />
+                                </Component>
+                            </Directory>
+
+                            <Directory Id="WINXPBINFOLDER" Name="!(loc.WinXpBinFolder)">
+                                <Component Id="A756289C_A7B3_4929_8A84_EC9C2C011083" Guid="{A756289C-A7B3-4929-8A84-EC9C2C011083}">
+                                    <File Id="EF3B7891_4D1B_48D0_851F_7F6C015D672A" Source="..\..\..\..\Output\Binaries\WINXP\DotRas.dll" />
+                                    <File Id="AC1A64F1_2F24_40D6_9844_1188F42E22D7" Source="..\..\..\..\Output\Binaries\WINXP\DotRas.xml" />
+                                </Component>
+                            </Directory>
+
+                            <Directory Id="WINXPSP2BINFOLDER" Name="!(loc.WinXpSp2BinFolder)">
+                                <Component Id="D8985E61_22BF_40BE_93C9_29A59DD22554" Guid="{D8985E61-22BF-40be-93C9-29A59DD22554}">
+                                    <File Id="F353069A_64C7_4EC4_A776_491554D1E339" Source="..\..\..\..\Output\Binaries\WINXPSP2\DotRas.dll" />
+                                    <File Id="CB2B3EC3_1CFB_4C10_B761_9902CEC6BA7D" Source="..\..\..\..\Output\Binaries\WINXPSP2\DotRas.xml" />
+                                </Component>
+                            </Directory>
+
+                            <Directory Id="WIN2K8BINFOLDER" Name="!(loc.Win2k8BinFolder)">
+                                <Component Id="B4336E00_F5CF_4E49_AFF3_E087B4AEE7A4" Guid="{B4336E00-F5CF-4e49-AFF3-E087B4AEE7A4}">
+                                    <File Id="DC2C804D_1DB5_45A5_BF2D_87E30E654BCA" Source="..\..\..\..\Output\Binaries\WIN2K8\DotRas.dll" />
+                                    <File Id="BC493AA8_AA11_44E7_AAA1_087D1D609F48" Source="..\..\..\..\Output\Binaries\WIN2K8\DotRas.xml" />
+                                </Component>
+                            </Directory>
+
+                        </Directory>
+
+                        <!-- Documentation Folder -->
+                        <Directory Id="DOCSFOLDER" Name="!(loc.DocsFolder)">
+
+                            <Component Id="A3DD597C_EC8C_4E1E_AF95_1F996D969F13" Guid="{A3DD597C-EC8C-4e1e-AF95-1F996D969F13}">
+                                <File Id="E333C60C_B80A_45B0_91ED_6D5D8AD2D785" Source="..\..\..\..\Help\Output\DotRas.chm" />
+                            </Component>
+
+                        </Directory>
+
+                        <!-- Samples Folder -->
+                        <Directory Id="EXAMPLESFOLDER" Name="!(loc.ExamplesFolder)" />
+
+                        <!-- Source Folder -->
+                        <Directory Id="SOURCEFOLDER" Name="!(loc.SourceFolder)" />
+                    </Directory>
+                </Directory>
+            </Directory>
+        </Directory>
+	</Fragment>
+</Wix>

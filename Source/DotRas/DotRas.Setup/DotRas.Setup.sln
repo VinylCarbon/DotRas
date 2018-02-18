@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4F2C8219-C71A-4A7B-84EF-A9DB5C7BED7B}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\make.bat = ..\..\..\make.bat
+	EndProjectSection
+EndProject
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "DotRas.Setup", "DotRas.Setup\DotRas.Setup.wixproj", "{DC789F01-A6FE-443D-84F8-CBBA4A5269DC}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs04.codeplex.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DotRas.Setup\\DotRas.Setup.wixproj
+		SccProjectName1 = DotRas.Setup
+		SccLocalPath1 = DotRas.Setup
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC789F01-A6FE-443D-84F8-CBBA4A5269DC}.Debug|x86.ActiveCfg = Debug|x86
+		{DC789F01-A6FE-443D-84F8-CBBA4A5269DC}.Debug|x86.Build.0 = Debug|x86
+		{DC789F01-A6FE-443D-84F8-CBBA4A5269DC}.Release|x86.ActiveCfg = Release|x86
+		{DC789F01-A6FE-443D-84F8-CBBA4A5269DC}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

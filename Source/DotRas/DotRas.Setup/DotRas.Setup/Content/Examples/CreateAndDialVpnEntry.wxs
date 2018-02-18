@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <FeatureGroup Id="CA1461B6_0792_440A_B64B_7210338F2A06">
+            <ComponentRef Id="CA223DD0_3C25_4056_B012_71EB06D76D2E" />
+            <ComponentRef Id="E272013B_27B6_447D_B089_03195179995B" />
+            <ComponentRef Id="FD29D7B4_73E3_4387_AFCA_C3819AF19336" />
+            <ComponentRef Id="E8057222_F2CD_4122_A262_10BB27FBC325" />
+            <ComponentRef Id="CBC2B46B_22D2_4FFE_8DFF_AA1E12EFF314" />
+            <ComponentRef Id="EC2A05F4_17C7_4C9A_8417_BB2FB295FBB3" />
+        </FeatureGroup>
+
+        <DirectoryRef Id="E1393056_00EE_4877_8242_ABA79D011CB6">
+            <Directory Id="A1441BD5_FE42_412E_88AC_B16E69A1AFFF" Name="!(loc.CS)">
+                <Component Id="CA223DD0_3C25_4056_B012_71EB06D76D2E" Guid="{CA223DD0-3C25-4056-B012-71EB06D76D2E}">
+                    <File Id="D706C2FB_552D_460A_879F_21A24DB8B387" Source="..\..\..\..\Output\Examples\CreateAndDialVpnEntry\CS\CreateAndDialVpnEntry.sln" />
+                </Component>
+                <Directory Id="EB0AAA71_09EA_4AAC_A73F_17A7999562CC" Name="!(loc.CreateAndDialVpnEntrySample)">
+                    <Component Id="E272013B_27B6_447D_B089_03195179995B" Guid="{E272013B-27B6-447D-B089-03195179995B}">
+                        <File Id="FE8673AB_C967_40E3_B7DB_79AAE88B8DE1" Source="..\..\..\..\Output\Examples\CreateAndDialVpnEntry\CS\CreateAndDialVpnEntry\CreateAndDialVpnEntry.csproj" />
+                        <File Id="C0BD29AC_D9A7_44FC_A8B1_469742706827" Source="..\..\..\..\Output\Examples\CreateAndDialVpnEntry\CS\CreateAndDialVpnEntry\MainForm.cs" />
+                        <File Id="AFAC4581_EDC5_4C6F_9B85_D1E85824A6E8" Source="..\..\..\..\Output\Examples\CreateAndDialVpnEntry\CS\CreateAndDialVpnEntry\MainForm.Designer.cs" />
+                        <File Id="DA4EC803_2D02_4EE1_BFD4_88A9B25BD6B3" Source="..\..\..\..\Output\Examples\CreateAndDialVpnEntry\CS\CreateAndDialVpnEntry\MainForm.resx" />
+                        <File Id="D362E1B0_3DE7_4F8C_B333_C96DE131DFDB" Source="..\..\..\..\Output\Examples\CreateAndDialVpnEntry\CS\CreateAndDialVpnEntry\Program.cs" />
+                    </Component>
+                    <Directory Id="B0C39BF4_3E29_4A31_87EA_E79B8A7DCF25" Name="!(loc.PropertiesFolder)">
+                        <Component Id="FD29D7B4_73E3_4387_AFCA_C3819AF19336" Guid="{FD29D7B4-73E3-4387-AFCA-C3819AF19336}">
+                            <File Id="D65BE8C2_E1D9_41CA_B187_876BAB76F5D0" Source="..\..\..\..\Output\Examples\CreateAndDialVpnEntry\CS\CreateAndDialVpnEntry\Properties\AssemblyInfo.cs" />
+                            <File Id="D0E6BB8D_02D6_487A_991B_18D18C63B5C2" Source="..\..\..\..\Output\Examples\CreateAndDialVpnEntry\CS\CreateAndDialVpnEntry\Properties\Resources.Designer.cs" />
+                            <File Id="A2C3AAF0_646F_47B6_A5F7_1993A3B8409F" Source="..\..\..\..\Output\Examples\CreateAndDialVpnEntry\CS\CreateAndDialVpnEntry\Properties\Resources.resx" />
+                            <File Id="F2B5B8BA_971B_4489_9562_D1073496EE84" Source="..\..\..\..\Output\Examples\CreateAndDialVpnEntry\CS\CreateAndDialVpnEntry\Properties\Settings.Designer.cs" />
+                            <File Id="D182CBCE_33D5_425E_9DE9_A09B9633DA4D" Source="..\..\..\..\Output\Examples\CreateAndDialVpnEntry\CS\CreateAndDialVpnEntry\Properties\Settings.settings" />
+                        </Component>
+                    </Directory>
+                </Directory>
+            </Directory>
+            <Directory Id="C0A9D67F_E73F_4456_B0EA_BAC2266339D7" Name="!(loc.VB)">
+                <Component Id="E8057222_F2CD_4122_A262_10BB27FBC325" Guid="{E8057222-F2CD-4122-A262-10BB27FBC325}">
+                    <File Id="B03B2896_C134_4805_BFC8_42EA8904F2D9" Source="..\..\..\..\Output\Examples\CreateAndDialVpnEntry\VB\CreateAndDialVpnEntry.sln" />
+                </Component>
+                <Directory Id="FD42089D_0B43_4915_9595_4F22CC4098DD" Name="!(loc.CreateAndDialVpnEntrySample)">
+                    <Component Id="CBC2B46B_22D2_4FFE_8DFF_AA1E12EFF314" Guid="{CBC2B46B-22D2-4FFE-8DFF-AA1E12EFF314}">
+                        <File Id="F1A78388_95D0_4A37_8828_B1FE20582AA8" Source="..\..\..\..\Output\Examples\CreateAndDialVpnEntry\VB\CreateAndDialVpnEntry\CreateAndDialVpnEntry.vbproj" />
+                        <File Id="AF428D42_5CE6_4823_B4B1_B8973C4A449D" Source="..\..\..\..\Output\Examples\CreateAndDialVpnEntry\VB\CreateAndDialVpnEntry\MainForm.vb" />
+                        <File Id="FDF72FF1_DAA8_49E0_B91A_3D5A6CC1EF86" Source="..\..\..\..\Output\Examples\CreateAndDialVpnEntry\VB\CreateAndDialVpnEntry\MainForm.Designer.vb" />
+                        <File Id="FFFB10AD_A3FF_4849_BE0B_26EE216D7C5D" Source="..\..\..\..\Output\Examples\CreateAndDialVpnEntry\VB\CreateAndDialVpnEntry\MainForm.resx" />
+                    </Component>
+                    <Directory Id="F3C401FE_12BA_4BA6_99D1_F46DC3C6E823" Name="!(loc.MyProjectFolder)">
+                        <Component Id="EC2A05F4_17C7_4C9A_8417_BB2FB295FBB3" Guid="{EC2A05F4-17C7-4C9A-8417-BB2FB295FBB3}">
+                            <File Id="E333A9C4_070A_4AC2_8E7F_12D7D4690FD4" Source="..\..\..\..\Output\Examples\CreateAndDialVpnEntry\VB\CreateAndDialVpnEntry\My Project\Application.Designer.vb" />
+                            <File Id="EE242A89_34D0_431B_BBBD_0C094A94560A" Source="..\..\..\..\Output\Examples\CreateAndDialVpnEntry\VB\CreateAndDialVpnEntry\My Project\Application.myapp" />
+                            <File Id="ABFB9C61_42F6_4BDB_B291_9C5FE6577343" Source="..\..\..\..\Output\Examples\CreateAndDialVpnEntry\VB\CreateAndDialVpnEntry\My Project\AssemblyInfo.vb" />
+                            <File Id="BC79D9A8_B593_4BD5_805E_981C8E520BF2" Source="..\..\..\..\Output\Examples\CreateAndDialVpnEntry\VB\CreateAndDialVpnEntry\My Project\Resources.Designer.vb" />
+                            <File Id="DD62D8F7_9664_49B3_B0A0_A716E8813FA3" Source="..\..\..\..\Output\Examples\CreateAndDialVpnEntry\VB\CreateAndDialVpnEntry\My Project\Resources.resx" />
+                            <File Id="FB2EBF74_9206_4917_A837_1E7041C7F00E" Source="..\..\..\..\Output\Examples\CreateAndDialVpnEntry\VB\CreateAndDialVpnEntry\My Project\Settings.Designer.vb" />
+                            <File Id="F08CF93A_450F_491E_969B_07A5A47EFFCC" Source="..\..\..\..\Output\Examples\CreateAndDialVpnEntry\VB\CreateAndDialVpnEntry\My Project\Settings.settings" />
+                        </Component>
+                    </Directory>
+                </Directory>
+            </Directory>
+        </DirectoryRef>
+    </Fragment>
+</Wix>

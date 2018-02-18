@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include>
+    <!-- PRODUCTNAME
+      Defines the product name being installed.
+    -->
+    <?define ProductName = "DotRas" ?>    
+    
+    <!-- PRODUCTID
+      Defines the product id.
+    -->
+    <?define ProductId = {2B8386D5-17EB-4897-90B7-DBD3EC46AEEB} ?>
+    
+    <!-- UPGRADECODE
+      Defines the upgrade code for the product.
+    -->
+    <?define UpgradeCode = {935DE49B-F385-4EE9-96A5-951062923D6F} ?>
+    
+    <!-- PRODUCTMANUFACTURER
+      Defines the product manufacturer variable used throughout the application.
+    -->
+    <?define ProductManufacturer = "Jeff Winn" ?>
+    
+    <!-- PRODUCTVERSION
+      Defines the product version used throughout the setup project. Windows Installer ignores the revision argument.
+    -->
+    <?define ProductVersion = "1.1.3488.0" ?>
+    
+    <!-- SDKVERSION
+      Defines the SDK version.
+    -->
+    <?define SDKVersion = "1.1" ?>
+    
+    <!-- PRODUCTLANGUAGE
+      Defines the product language.
+    -->
+    <?define ProductLanguage = 1033 ?>
+</Include>

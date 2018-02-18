@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Fragment>
+        <FeatureGroup Id="BD22A1A3_B9F9_445E_BC15_741A929AA15B">
+            <ComponentRef Id="D3C2BC20_895D_459E_B842_B8D5C10AD0BA" />
+            <ComponentRef Id="A1543CA4_6ACF_491A_81F1_A356304A2562" />
+            <ComponentRef Id="D5C581C5_BEF2_45DD_9D88_F06D0107DA28" />
+            <ComponentRef Id="F1D37459_EF50_4BC4_B793_34BED69CF1D7" />
+            <ComponentRef Id="F04BDEC5_D1D6_4607_AC63_DF464EAE175E" />
+            <ComponentRef Id="BF5B5468_569F_4036_A36A_319A8C80A074" />
+        </FeatureGroup>
+
+        <DirectoryRef Id="D36AF87A_10EA_42C8_A192_52E390D36D58">
+            <Directory Id="DCAFD592_4ACD_4183_9A6A_A71FA35A65BE" Name="!(loc.CS)">
+                <Component Id="D3C2BC20_895D_459E_B842_B8D5C10AD0BA" Guid="{D3C2BC20-895D-459E-B842-B8D5C10AD0BA}">
+                    <File Id="E27574AE_843F_4A53_B97E_AFF14B20286D" Source="..\..\..\..\Output\Examples\GetActiveConnectionIPAddress\CS\GetActiveConnectionIPAddress.sln" />
+                </Component>
+                <Directory Id="AFC2B01C_EB11_47E0_935E_218E83E665A4" Name="!(loc.GetActiveConnectionIPAddressSample)">
+                    <Component Id="A1543CA4_6ACF_491A_81F1_A356304A2562" Guid="{A1543CA4-6ACF-491A-81F1-A356304A2562}">
+                        <File Id="DB18BAED_270C_4D49_9B59_80259BB4DA5F" Source="..\..\..\..\Output\Examples\GetActiveConnectionIPAddress\CS\GetActiveConnectionIPAddress\ComboBoxItem.cs" />
+                        <File Id="E0D04317_39EF_4162_8B6F_4311909FEDCC" Source="..\..\..\..\Output\Examples\GetActiveConnectionIPAddress\CS\GetActiveConnectionIPAddress\GetActiveConnectionIPAddress.csproj" />
+                        <File Id="E827FA41_8C8F_473F_8F57_1EA28BAD3075" Source="..\..\..\..\Output\Examples\GetActiveConnectionIPAddress\CS\GetActiveConnectionIPAddress\MainForm.cs" />
+                        <File Id="BF1F7B9C_46C3_46FA_B39C_D88030B41062" Source="..\..\..\..\Output\Examples\GetActiveConnectionIPAddress\CS\GetActiveConnectionIPAddress\MainForm.Designer.cs" />
+                        <File Id="CC18BDCE_CD6A_40D6_B86F_B3F6DD8D0E06" Source="..\..\..\..\Output\Examples\GetActiveConnectionIPAddress\CS\GetActiveConnectionIPAddress\MainForm.resx" />
+                        <File Id="F14B162E_59CA_4ED9_B356_25274F8AFDD6" Source="..\..\..\..\Output\Examples\GetActiveConnectionIPAddress\CS\GetActiveConnectionIPAddress\Program.cs" />
+                    </Component>
+                    <Directory Id="A1AAB775_2FEE_4B9C_ADD7_6FE28AB8C546" Name="!(loc.PropertiesFolder)">
+                        <Component Id="D5C581C5_BEF2_45DD_9D88_F06D0107DA28" Guid="{D5C581C5-BEF2-45DD-9D88-F06D0107DA28}">
+                            <File Id="E0A96931_BDD1_4136_92AA_B4D83A7F7E8B" Source="..\..\..\..\Output\Examples\GetActiveConnectionIPAddress\CS\GetActiveConnectionIPAddress\Properties\AssemblyInfo.cs" />
+                            <File Id="C21C1F20_00F4_4153_9EB0_C6D7FFECC597" Source="..\..\..\..\Output\Examples\GetActiveConnectionIPAddress\CS\GetActiveConnectionIPAddress\Properties\Resources.Designer.cs" />
+                            <File Id="D000B707_59CF_4700_9005_6A705DA260B4" Source="..\..\..\..\Output\Examples\GetActiveConnectionIPAddress\CS\GetActiveConnectionIPAddress\Properties\Resources.resx" />
+                            <File Id="DC687C82_6F9E_4E14_8B55_885C1A0ACF09" Source="..\..\..\..\Output\Examples\GetActiveConnectionIPAddress\CS\GetActiveConnectionIPAddress\Properties\Settings.Designer.cs" />
+                            <File Id="C03E78A0_067E_4CFE_8A68_C66A564A1A5D" Source="..\..\..\..\Output\Examples\GetActiveConnectionIPAddress\CS\GetActiveConnectionIPAddress\Properties\Settings.settings" />
+                        </Component>
+                    </Directory>
+                </Directory>               
+            </Directory>            
+            <Directory Id="B250FA6F_A215_46EB_848B_6680F4D42E71" Name="!(loc.VB)">
+                <Component Id="F1D37459_EF50_4BC4_B793_34BED69CF1D7" Guid="{F1D37459-EF50-4BC4-B793-34BED69CF1D7}">
+                    <File Id="B926D496_26F2_42B1_865B_1080899B9298" Source="..\..\..\..\Output\Examples\GetActiveConnectionIPAddress\VB\GetActiveConnectionIPAddress.sln" />
+                </Component>
+                <Directory Id="D9A9C7E9_A42B_4EED_AB5F_E748B0D9237F" Name="!(loc.GetActiveConnectionIPAddressSample)">
+                    <Component Id="F04BDEC5_D1D6_4607_AC63_DF464EAE175E" Guid="{F04BDEC5-D1D6-4607-AC63-DF464EAE175E}">
+                        <File Id="C8DC6AF5_D1B9_448D_B77E_F2A28AC8FB5C" Source="..\..\..\..\Output\Examples\GetActiveConnectionIPAddress\VB\GetActiveConnectionIPAddress\ComboBoxItem.vb" />
+                        <File Id="D5FBA9DE_1306_44B4_B1FD_65D00B5DBAA9" Source="..\..\..\..\Output\Examples\GetActiveConnectionIPAddress\VB\GetActiveConnectionIPAddress\GetActiveConnectionIPAddress.vbproj" />
+                        <File Id="D7289FF3_3BC5_494D_B450_DF26C7A7F79C" Source="..\..\..\..\Output\Examples\GetActiveConnectionIPAddress\VB\GetActiveConnectionIPAddress\MainForm.Designer.vb" />
+                        <File Id="CA08ACBD_5037_44D7_9C75_B7B91BDF9EDE" Source="..\..\..\..\Output\Examples\GetActiveConnectionIPAddress\VB\GetActiveConnectionIPAddress\MainForm.resx" />
+                        <File Id="EE84C142_C576_4C50_BEC3_8FD5360C5E47" Source="..\..\..\..\Output\Examples\GetActiveConnectionIPAddress\VB\GetActiveConnectionIPAddress\MainForm.vb" />
+                    </Component>
+                    <Directory Id="F2C75D00_791F_4091_841F_BC5743CFD046" Name="!(loc.MyProjectFolder)">
+                        <Component Id="BF5B5468_569F_4036_A36A_319A8C80A074" Guid="{BF5B5468-569F-4036-A36A-319A8C80A074}">
+                            <File Id="F1D1F031_DDC0_4716_BB74_1BA9EDAC442C" Source="..\..\..\..\Output\Examples\GetActiveConnectionIPAddress\VB\GetActiveConnectionIPAddress\My Project\app.manifest" />
+                            <File Id="C8CED1BB_0FB0_4346_B215_237BB766244E" Source="..\..\..\..\Output\Examples\GetActiveConnectionIPAddress\VB\GetActiveConnectionIPAddress\My Project\Application.Designer.vb" />
+                            <File Id="CC55D9CA_F136_4CD0_99F7_2E8926657C0B" Source="..\..\..\..\Output\Examples\GetActiveConnectionIPAddress\VB\GetActiveConnectionIPAddress\My Project\Application.myapp" />
+                            <File Id="F6FBD3D0_24D5_43B4_A23F_FC32DFF759D5" Source="..\..\..\..\Output\Examples\GetActiveConnectionIPAddress\VB\GetActiveConnectionIPAddress\My Project\AssemblyInfo.vb" />
+                            <File Id="C088B970_DC47_478A_AA57_BE4520B20A7C" Source="..\..\..\..\Output\Examples\GetActiveConnectionIPAddress\VB\GetActiveConnectionIPAddress\My Project\Resources.Designer.vb" />
+                            <File Id="D2DDBCAF_2802_431A_9472_1CBDF05CCD44" Source="..\..\..\..\Output\Examples\GetActiveConnectionIPAddress\VB\GetActiveConnectionIPAddress\My Project\Resources.resx" />
+                            <File Id="AEBAEE7C_84A4_40EB_A592_CE28D074DBD7" Source="..\..\..\..\Output\Examples\GetActiveConnectionIPAddress\VB\GetActiveConnectionIPAddress\My Project\Settings.Designer.vb" />
+                            <File Id="DB299781_C16E_40B5_82E1_6A2C844E8D9F" Source="..\..\..\..\Output\Examples\GetActiveConnectionIPAddress\VB\GetActiveConnectionIPAddress\My Project\Settings.settings" />
+                        </Component>
+                    </Directory>
+                </Directory>
+            </Directory>
+        </DirectoryRef>
+	</Fragment>
+</Wix>

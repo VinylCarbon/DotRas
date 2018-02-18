@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Fragment>
+        <FeatureGroup Id="FE1E75C5_FCBF_4A2D_8BA9_C620FE524E2B">
+            <FeatureGroupRef Id="CA1461B6_0792_440A_B64B_7210338F2A06" />
+            <FeatureGroupRef Id="BD22A1A3_B9F9_445E_BC15_741A929AA15B" />
+        </FeatureGroup>
+        
+        <DirectoryRef Id="EXAMPLESFOLDER">
+            <Directory Id="E1393056_00EE_4877_8242_ABA79D011CB6" Name="!(loc.CreateAndDialVpnEntrySample)" />
+            <Directory Id="D36AF87A_10EA_42C8_A192_52E390D36D58" Name="!(loc.GetActiveConnectionIPAddressSample)" />
+        </DirectoryRef>
+	</Fragment>
+</Wix>

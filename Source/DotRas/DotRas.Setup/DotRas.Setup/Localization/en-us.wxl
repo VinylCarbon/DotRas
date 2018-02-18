@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?include "..\Config.wxi"?>
+
+<WixLocalization Culture="en-us" xmlns="http://schemas.microsoft.com/wix/2006/localization">
+    <!-- Folder Names -->
+    <String Id="BinFolder">Bin</String>
+    <String Id="DocsFolder">Docs</String>
+    <String Id="SourceFolder">Source</String>
+    <String Id="SourceProductFolder">DotRas</String>
+    <String Id="SourceTestsFolder">DotRas.Tests</String>
+    <String Id="ExamplesFolder">Examples</String>
+    <String Id="PropertiesFolder">Properties</String>
+    <String Id="MyProjectFolder">My Project</String>
+
+    <!-- Bin Folder Names -->
+    <String Id="Win2kBinFolder">WIN2K</String>
+    <String Id="WinXpBinFolder">WINXP</String>
+    <String Id="WinXpSp2BinFolder">WINXPSP2</String>
+    <String Id="Win2k8BinFolder">WIN2K8</String>    
+    
+    <!-- Feature Names -->
+	<String Id="RequiredFiles">Required Files</String>
+    <String Id="RequiredFilesDesc">Installs any required files.</String>
+    <String Id="DocumentationFiles">Documentation</String>
+    <String Id="DocumentationFilesDesc">Installs the documentation files.</String>
+    <String Id="SourceFiles">Source Code</String>
+    <String Id="SourceFilesDesc">Installs the source code files used for this release.</String>
+    <String Id="SampleFiles">Examples</String>
+    <String Id="SampleFilesDesc">Installs any example projects included.</String>
+
+    <!-- Language Names -->
+    <String Id="CS">CS</String>
+    <String Id="VB">VB</String>
+    
+    <!-- Sample Names -->
+    <String Id="CreateAndDialVpnEntrySample">CreateAndDialVpnEntry</String>
+    <String Id="GetActiveConnectionIPAddressSample">GetActiveConnectionIPAddress</String>
+</WixLocalization>

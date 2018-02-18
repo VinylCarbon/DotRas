@@ -1,0 +1,51 @@
+﻿<project schemaVersion="1.6.0.7">
+    <assemblies>
+        <assembly assemblyPath="..\Source\DotRas\DotRas\bin\Release\DotRas.dll" xmlCommentsPath="..\Source\DotRas\DotRas\bin\Release\DotRas.xml" commentsOnly="False" />
+    </assemblies>
+    <namespaceSummaries>
+        <namespaceSummaryItem name="" isDocumented="True" />
+        <namespaceSummaryItem name="DotRas" isDocumented="True">The &lt;b&gt;DotRas&lt;/b&gt; namespace contains the classes used for manipulating the Microsoft Windows remote access service (RAS) system.</namespaceSummaryItem>
+        <namespaceSummaryItem name="DotRas.Design" isDocumented="True">The &lt;b&gt;DotRas.Design&lt;/b&gt; namespace contains base classes used within the assembly along with providing designer support.</namespaceSummaryItem>
+    </namespaceSummaries>
+    <ProjectSummary />
+    <MissingTags>Summary, Parameter, Returns, TypeParameter</MissingTags>
+    <VisibleItems>Protected, SealedProtected</VisibleItems>
+    <HtmlHelp1xCompilerPath path="" />
+    <HtmlHelp2xCompilerPath path="" />
+    <OutputPath>.\Output\</OutputPath>
+    <SandcastlePath path="" />
+    <WorkingPath path="" />
+    <CleanIntermediates>False</CleanIntermediates>
+    <KeepLogFile>True</KeepLogFile>
+    <BuildLogFile path="" />
+    <HelpFileFormat>HtmlHelp1x</HelpFileFormat>
+    <CppCommentsFixup>False</CppCommentsFixup>
+    <FrameworkVersion>2.0.50727</FrameworkVersion>
+    <IndentHtml>False</IndentHtml>
+    <Preliminary>False</Preliminary>
+    <RootNamespaceContainer>False</RootNamespaceContainer>
+    <RootNamespaceTitle />
+    <HelpTitle>DotRas</HelpTitle>
+    <HtmlHelpName>DotRas</HtmlHelpName>
+    <Language>en-US</Language>
+    <CopyrightHref>http://www.codeplex.com/DotRas</CopyrightHref>
+    <CopyrightText>Copyright 2008-2009 Jeff Winn</CopyrightText>
+    <FeedbackEMailAddress />
+    <FeedbackEMailLinkText />
+    <HeaderText />
+    <FooterText />
+    <ProjectLinkType>Local</ProjectLinkType>
+    <SdkLinkType>Msdn</SdkLinkType>
+    <SdkLinkTarget>Blank</SdkLinkTarget>
+    <PresentationStyle>vs2005</PresentationStyle>
+    <NamingMethod>Guid</NamingMethod>
+    <SyntaxFilters>Standard</SyntaxFilters>
+    <ShowFeedbackControl>False</ShowFeedbackControl>
+    <BinaryTOC>True</BinaryTOC>
+    <IncludeFavorites>False</IncludeFavorites>
+    <CollectionTocStyle>Hierarchical</CollectionTocStyle>
+    <IncludeStopWordList>True</IncludeStopWordList>
+    <PlugInNamespaces>ms.vsipcc+, ms.vsexpresscc+</PlugInNamespaces>
+    <HelpFileVersion>1.1.0.0</HelpFileVersion>
+    <ContentPlacement>AboveNamespaces</ContentPlacement>
+</project>

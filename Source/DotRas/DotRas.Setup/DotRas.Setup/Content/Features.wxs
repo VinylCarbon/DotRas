@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?include "..\Config.wxi" ?>
+
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <FeatureGroup Id="DDC0B08B_3081_408C_8EFB_DBDBE408BE2D">
+            <!-- Required Files -->
+            <Feature Id="D1410206_ADDB_4AE5_9821_2E0C4C09C235" Title="!(loc.RequiredFiles)" Level="1" AllowAdvertise="no" Absent="disallow" Description="!(loc.RequiredFilesDesc)">
+                <!-- License and ReadMe Files -->
+                <ComponentRef Id="B166ACB8_EC2A_450A_99A0_5177F52A55E3" />
+
+                <!-- Binaries -->
+                <ComponentRef Id="BB87A0A1_6B7F_4390_89A7_6C00C17272E1" />
+                <ComponentRef Id="A756289C_A7B3_4929_8A84_EC9C2C011083" />
+                <ComponentRef Id="D8985E61_22BF_40BE_93C9_29A59DD22554" />
+                <ComponentRef Id="B4336E00_F5CF_4E49_AFF3_E087B4AEE7A4" />
+            </Feature>
+
+            <!-- Documentation Files -->
+            <Feature Id="EB9F9DD6_5AB6_49B2_9EB7_5DE850430411" Title="!(loc.DocumentationFiles)" Level="1" AllowAdvertise="no" Description="!(loc.DocumentationFilesDesc)">
+                <ComponentRef Id="A3DD597C_EC8C_4E1E_AF95_1F996D969F13" />
+            </Feature>
+
+            <!-- Samples -->
+            <Feature Id="CEAF277F_0E02_4727_B1E6_DC785F3F3ED1" Title="!(loc.SampleFiles)" Level="1" AllowAdvertise="no" Description="!(loc.SampleFilesDesc)">
+                <FeatureGroupRef Id="FE1E75C5_FCBF_4A2D_8BA9_C620FE524E2B" />
+            </Feature>
+
+            <!-- Source Code -->
+            <Feature Id="A30D95EF_3D2B_4A3D_9054_D7FE3C39BC99" Title="!(loc.SourceFiles)" Level="2" AllowAdvertise="no" Description="!(loc.SourceFilesDesc)">
+                <FeatureGroupRef Id="F48CB1A4_A105_4119_81DE_E82C5184245C" />
+            </Feature>
+        </FeatureGroup>
+    </Fragment>       
+</Wix>

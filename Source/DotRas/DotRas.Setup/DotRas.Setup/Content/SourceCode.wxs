@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Fragment>
+        <FeatureGroup Id="F48CB1A4_A105_4119_81DE_E82C5184245C">
+            <ComponentRef Id="D4E7035C_2994_49ED_90D5_7BA07DA26BA2" />
+        </FeatureGroup>
+        
+        <DirectoryRef Id="SOURCEFOLDER">
+            <Component Id="D4E7035C_2994_49ED_90D5_7BA07DA26BA2" Guid="{D4E7035C-2994-49ED-90D5-7BA07DA26BA2}">
+                <File Id="E0B6D9E9_6368_452A_9DF5_FE178833E6DD" Source="..\..\..\..\Output\Source\DotRas.zip" />
+            </Component>
+        </DirectoryRef>
+	</Fragment>
+</Wix>
